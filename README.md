@@ -1,1 +1,2 @@
-# Temel_JavaScript
+# Temel JavaScript(JS)
+Temel JavaScript Çalışmaları
