@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>JavaScript Tekrar Örnekleri-6</title>
+</head>
+<body>
+    <p>
+        1. sayi : <input id="Text1" type="text" />
+        2. sayi : <input id="Text2" type="text" />
+        <input id="Button1" type="button" value="Topla" onclick="topla()" />
+    </p>
+    <p id="sonuc"></p>
+    <script>
+        function topla() {
+            document.getElementById('sonuc').innerHTML = Number(document.getElementById('Text1').value) + Number(document.getElementById('Text2').value)
+        }
+    </script>
+</body>
+</html>
