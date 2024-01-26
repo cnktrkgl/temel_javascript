@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>n adet sayının ortalaması</title>
+</head>
+
+<body>
+    <script>
+        var n, s, sayi, toplam=0, ort=0;
+        n=prompt("n : ");
+        for(s=1; s<=n; s++){
+            sayi=Number(prompt("Sayi : "));
+            toplam=toplam+sayi;
+        }
+        ort=toplam/n;
+        document.write("Ortalama : "+ort);
+    </script>
+</body>
+
+</html>
